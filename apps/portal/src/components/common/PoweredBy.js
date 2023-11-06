@@ -10,11 +10,11 @@ export default class PoweredBy extends React.Component {
         // want it to be translated
         /* eslint-disable i18next/no-literal-string */
         return (
-            <a href='https://ghost.org' target='_blank' rel='noopener noreferrer' onClick={() => {
-                window.open('https://ghost.org', '_blank');
+            <a href='https://cybertes.com' target='_blank' rel='noopener noreferrer' onClick={() => {
+                window.open('https://cybertes.com', '_blank');
             }}>
                 <GhostLogo />
-                Powered by Ghost
+                Build by Ne0 with ❤
             </a>
         );
         /* eslint-enable i18next/no-literal-string */
