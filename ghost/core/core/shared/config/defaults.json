@@ -46,7 +46,7 @@
         "paymentProcessors": [],
         "emailTemplate": {
             "showSiteHeader": true,
-            "showPoweredBy": true
+            "showPoweredBy": false
         }
     },
     "logging": {
