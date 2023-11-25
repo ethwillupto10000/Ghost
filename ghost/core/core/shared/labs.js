@@ -20,7 +20,10 @@ const GA_FEATURES = [
     'outboundLinkTagging',
     'announcementBar',
     'signupForm',
-    'recommendations'
+    'recommendations',
+    'editorEmojiPicker',
+    'listUnsubscribeHeader',
+    'filterEmailDisabled'
 ];
 
 // NOTE: this allowlist is meant to be used to filter out any unexpected
@@ -42,9 +45,12 @@ const ALPHA_FEATURES = [
     'tipsAndDonations',
     'importMemberTier',
     'lexicalIndicators',
-    'listUnsubscribeHeader',
     'editorEmojiPicker',
-    'adminXOffers'
+    'adminXOffers',
+    'filterEmailDisabled',
+    'adminXDemo',
+    'tkReminders',
+    'newEmailAddresses'
 ];
 
 module.exports.GA_KEYS = [...GA_FEATURES];

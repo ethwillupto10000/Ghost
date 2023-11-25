@@ -1,7 +1,7 @@
 import FeatureToggle from './FeatureToggle';
 import LabItem from './LabItem';
-import List from '../../../../admin-x-ds/global/List';
 import React from 'react';
+import {List} from '@tryghost/admin-x-design-system';
 
 const features = [{
     title: 'URL cache',
@@ -48,17 +48,25 @@ const features = [{
     description: 'Enables publishers to collect one-time payments',
     flag: 'tipsAndDonations'
 },{
-    title: 'List-Unsubscribe header',
-    description: 'Set the List-Unsubscribe header in emails',
-    flag: 'listUnsubscribeHeader'
-},{
-    title: 'Editor emoji picker',
-    description: <>Trigger an emoji picker when typing <code>{':{search}'}</code> in the editor</>,
-    flag: 'editorEmojiPicker'
-},{
     title: 'AdminX Offers',
     description: 'Enables the new offers UI in AdminX settings',
     flag: 'adminXOffers'
+},{
+    title: 'Filter by email disabled',
+    description: 'Allows filtering members by email disabled',
+    flag: 'filterEmailDisabled'
+},{
+    title: 'AdminX Demo',
+    description: 'Adds a navigation link to the AdminX demo app',
+    flag: 'adminXDemo'
+},{
+    title: 'TK Reminders',
+    description: 'Enables the TK Reminders feature in the editor',
+    flag: 'tkReminders'
+},{
+    title: 'New email addresses',
+    description: 'For self hosters, forces the usage of the mail.from config as from address for all outgoing emails',
+    flag: 'newEmailAddresses'
 }];
 
 const AlphaFeatures: React.FC = () => {
